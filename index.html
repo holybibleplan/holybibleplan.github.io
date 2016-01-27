@@ -33,6 +33,10 @@
       height: 200px;
       float:left;
     }
+    .small {
+      font-size: 12px;
+      color: red;
+    }
 
   </style>
 </head>
@@ -43,7 +47,7 @@
 <div class="">
   <a class="link first_gap" href="./sample.html">See a Sample Email</a>
   <a class="link gap" href="features.html">Share with friend</a>
-  <a class="link gap" href="features.html">Questions</a>
+  <a class="link gap" href="questions.html">Questions</a>
   <a class="last_gap btn btn-block btn-lg btn-primary" href="/users/sign_in">Sign in</a>
 </div>
 
@@ -51,13 +55,15 @@
   <div class="wrap">
     <input type="input" name="name" value="" placeholder="email@email.com">
     <button type="button" name="button">Sign Up</button>
-    <hr>
+    <p class="small">
+      We ran out of invites. Enter your email and you will be put on waiting list.
+    </p>
   </div>
 </main><!-- /.site__content -->
 
 <header class="site__header island">
   <div class="wrap">
-   <span id="animationSandbox" style="display: block;"><h2 class="site__title big">Holy Bible Plan</h2></span>
+   <span><h2 class="site__title big">Holy Bible Plan</h2><span><h3>beta</h3></span></span>
     <span class="beta subhead">
       Find it difficult to finish reading your bible? Let us help you finish reading your bible every year.
     </span>
